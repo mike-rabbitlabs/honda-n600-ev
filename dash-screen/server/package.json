@@ -1,0 +1,16 @@
+{
+  "name": "@mderrick_dl/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd ../ui && npm run build && cd ../server; rm -rf build && cp -R ../ui/build ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
+  }
+}

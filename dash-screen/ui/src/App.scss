@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+
+html, body {
+}
+
+.app__main-app-container {
+}
+
+@font-face {
+  // This is parsed as a normal function call that takes a quoted string.
+  src: url("./fonts/PTSansNarrow-Regular.ttf") format("truetype");
+
+  font-weight: 300;
+  font-family: "PtSans";
+}
+
+@font-face {
+  // This is parsed as a normal function call that takes a quoted string.
+  src: url("./fonts/PTSansNarrow-Bold.ttf") format("truetype");
+
+  font-weight: 300;
+  font-family: "PTSansBold";
+}

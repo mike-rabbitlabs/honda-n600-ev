@@ -1,0 +1,14 @@
+---
+  version: "3.4"
+  services:
+    app:
+      image: us.gcr.io/docker-img-ref
+      network_mode: host
+      tty: true
+      restart: always
+      privileged: true
+      environment:
+        - "NODE_ENV=production"
+        - "GB_ENV=dev"
+        - "GB_EXHIBIT_ID=00"
+
