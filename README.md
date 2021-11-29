@@ -5,10 +5,11 @@ All control systems and dash UI code.
 ![System Diagram](docs/restoration.jpg)
 
 ## Master Control Unit
+Communicates (via CAN) to the BMS, controls fan, and coolant pumps, monitors temperature.
+
+![System Diagram](docs/control-board.jpg)
 
 ![System Diagram](docs/n600_rear_control_diagram.jpg)
-
-Communicates (via CAN) to the BMS, controls fan, and coolant pumps, monitors temperature.
 
 ## Dash Screen UI
 
