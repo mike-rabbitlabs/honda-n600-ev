@@ -20,6 +20,12 @@ Communicates (via CAN) to the BMS, controls fan, and coolant pumps, monitors tem
 * [Kikad](https://www.kicad.org/)
 * [Node.js/NPM](https://nodejs.org/en/download/)
 
+### Progress
+* [Leaf EM61 Motor running with Prius Gen3 inverter](https://youtu.be/WkFnErgvj8M)
+* [Raspberry Pi dash screen](https://youtu.be/67Cg47E4874)
+* CAN communication with chevy volt bms
+* CAN communication with chevy volt charger
+
 ### Dev Setup
 
 * Within the dash-screen/server directory, Run: _npm install_ to download dependencies
